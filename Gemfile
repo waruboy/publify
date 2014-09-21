@@ -83,3 +83,4 @@ Dir.glob(File.join(File.dirname(__FILE__), 'themes', '**', "Gemfile")) do |gemfi
 end
 
 gem 'mina'
+gem "passenger"
