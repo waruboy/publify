@@ -81,3 +81,5 @@ end
 Dir.glob(File.join(File.dirname(__FILE__), 'themes', '**', "Gemfile")) do |gemfile|
   eval(IO.read(gemfile), binding)
 end
+
+gem 'mina'
